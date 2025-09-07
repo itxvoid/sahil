@@ -220,13 +220,13 @@ def fia():
 
     if option == '1':
         limit = int(input("How many IDs you want? : "))
-        idz = [str(i) for i in range(10000, 10000 + limit)]
+        idz = [str(i) for i in range(0, 100000 + limit)]
         for num, uid in enumerate(idz, start=1):
             print(f"[SAHIL] {num}|OK:- {uid}")
 
     elif option == '2':
         limit = int(input("How many IDs you want? : "))
-        idz = [str(i) for i in range(20000, 20000 + limit)]
+        idz = [str(i) for i in range(0, 200000 + limit)]
         for num, uid in enumerate(idz, start=1):
             print(f"[SAHIL] {num}|CP:- {uid}")
 
@@ -240,7 +240,7 @@ fia()
 def linex():
     print('\033[0;97m--------------------------------------------------')
 
-loop = 10000
+loop = 0
 oks = []
 cps = []
 pcp = []
@@ -256,13 +256,13 @@ def fia():
 
     if option == '1':
         limit = int(input("How many IDs you want? : "))
-        idz = [str(i) for i in range(10000, 10000 + limit)]
+        idz = [str(i) for i in range(0, 100000 + limit)]
         for num, uid in enumerate(idz, start=1):
             print(f"[SAHIL] {num}|OK:- {uid}")
 
     elif option == '2':
         limit = int(input("How many IDs you want? : "))
-        idz = [str(i) for i in range(20000, 20000 + limit)]
+        idz = [str(i) for i in range(0, 200000 + limit)]
         for num, uid in enumerate(idz, start=1):
             print(f"[SAHIL] {num}|CP:- {uid}")
 
@@ -292,13 +292,13 @@ option = input('Select an option: ')
 
 if option == '1':
     limit = int(input("How many IDs you want? : "))
-    idz = [str(i) for i in range(10000, 10000 + limit)]
+    idz = [str(i) for i in range(0, 100000 + limit)]
     for num, uid in enumerate(idz, start=1):
         print(f"[SAHIL] {num}|OK:- {uid}")
 
 elif option == '2':
     limit = int(input("How many IDs you want? : "))
-    idz = [str(i) for i in range(20000, 20000 + limit)]
+    idz = [str(i) for i in range(0, 200000 + limit)]
     for num, uid in enumerate(idz, start=1):
         print(f"[SAHIL] {num}|CP:- {uid}")
 

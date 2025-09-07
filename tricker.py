@@ -50,12 +50,12 @@ for xd in range(5000):
 	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
+	e=random.randrange(1, 99999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	h=random.randrange(73,100)
 	i='0'
-	j=random.randrange(4200,4900)
+	j=random.randrange(4200,490000)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
@@ -68,12 +68,12 @@ except Exception as e:
 	os.system('clear')
 
 
-for xd in range(10000):
+for xd in range(100000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
-	e=random.randrange(100, 9999)
+	e=random.randrange(100, 999999)
 	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
@@ -93,7 +93,7 @@ for xd in range(10000):
 	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	h=random.randrange(73,100)
 	i='0'
-	j=random.randrange(4200,4900)
+	j=random.randrange(4200,490000)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'

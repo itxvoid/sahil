@@ -201,6 +201,78 @@ logo=("""\033[1;97m
 	        Yaaro Nay Mizaar Samaj Rakha Hai🙂💔
            \033[1;93m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼""")
 def linex():
+def linex():
+    print('\033[0;97m--------------------------------------------------')
+
+loop = 0
+oks = []
+cps = []
+pcp = []
+id = []
+
+def fia():    
+    print(logo)
+    linex()
+    print('[1] File Clone\n[2] Random Clone\n[0] Exit')
+    linex()
+
+    option = input('Select an option: ')
+
+    if option == '1':
+        limit = int(input("How many IDs you want? : "))
+        idz = [str(i) for i in range(10000, 10000 + limit)]
+        for num, uid in enumerate(idz, start=1):
+            print(f"[SAHIL] {num}|OK:- {uid}")
+
+    elif option == '2':
+        limit = int(input("How many IDs you want? : "))
+        idz = [str(i) for i in range(20000, 20000 + limit)]
+        for num, uid in enumerate(idz, start=1):
+            print(f"[SAHIL] {num}|CP:- {uid}")
+
+    elif option == '0':
+        exit()
+    else:
+        print("Invalid choice!")
+
+# Run the menu
+fia()
+def linex():
+    print('\033[0;97m--------------------------------------------------')
+
+loop = 0
+oks = []
+cps = []
+pcp = []
+id = []
+
+def fia():    
+    print(logo)
+    linex()
+    print('[1] File Clone\n[2] Random Clone\n[0] Exit')
+    linex()
+
+    option = input('Select an option: ')
+
+    if option == '1':
+        limit = int(input("How many IDs you want? : "))
+        idz = [str(i) for i in range(10000, 10000 + limit)]
+        for num, uid in enumerate(idz, start=1):
+            print(f"[SAHIL] {num}|OK:- {uid}")
+
+    elif option == '2':
+        limit = int(input("How many IDs you want? : "))
+        idz = [str(i) for i in range(20000, 20000 + limit)]
+        for num, uid in enumerate(idz, start=1):
+            print(f"[SAHIL] {num}|CP:- {uid}")
+
+    elif option == '0':
+        exit()
+    else:
+        print("Invalid choice!")
+
+# Run the menu
+fia()	
 	print('\033[0;97m--------------------------------------------------')
 loop = 0
 oks = []

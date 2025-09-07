@@ -214,20 +214,26 @@ def fia():
 			print(logo)
 			linex()
 			print('[1] File Clone\n[2] Random Clone\n[0] Exit')
-			linex()
-			xd=input('[*] Choose an option: ')
-			if xd in ['1','01']:
-				os.system('clear')
-				print(logo)
-				print('Example : /sdcard/SAHIL-.txt')
-				linex()
-				file = input(' Put file path\033[1;97m: ')
-				try:
-					fo = open(file,'r').read().splitlines()
-				except FileNotFoundError:
-					print(' File location not found ')
-					time.sleep(1)
-					menu()
+linex()
+
+option = input('Select an option: ')
+
+if option == '1':
+    limit = int(input("How many IDs you want? : "))
+    idz = [str(i) for i in range(10000, 10000 + limit)]
+    for num, uid in enumerate(idz, start=1):
+        print(f"[SAHIL] {num}|OK:- {uid}")
+
+elif option == '2':
+    limit = int(input("How many IDs you want? : "))
+    idz = [str(i) for i in range(20000, 20000 + limit)]
+    for num, uid in enumerate(idz, start=1):
+        print(f"[SAHIL] {num}|CP:- {uid}")
+
+elif option == '0':
+    exit()
+else:
+    print("Invalid choice!")
 				os.system('clear')
 				print(logo)
 				
@@ -531,7 +537,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[0;92mSHAMROZ\033[0;92m] %s|OK:-%s \r'%(loop,len(oks))),
+			sys.stdout.write(f'\r [\033[0;92mSAHIL\033[0;92m] %s|OK:-%s \r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text

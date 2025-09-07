@@ -204,7 +204,7 @@ def linex():
 def linex():
     print('\033[0;97m--------------------------------------------------')
 
-loop = 0
+loop = 10000
 oks = []
 cps = []
 pcp = []
@@ -230,7 +230,7 @@ def fia():
         for num, uid in enumerate(idz, start=1):
             print(f"[SAHIL] {num}|CP:- {uid}")
 
-    elif option == '0':
+    elif option == '10000':
         exit()
     else:
         print("Invalid choice!")
@@ -240,7 +240,7 @@ fia()
 def linex():
     print('\033[0;97m--------------------------------------------------')
 
-loop = 0
+loop = 10000
 oks = []
 cps = []
 pcp = []
